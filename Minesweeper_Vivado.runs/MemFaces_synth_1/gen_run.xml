@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="MemFaces_synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1433795584">
+  <File Type="RDS-DCP" Name="MemFaces.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/MemFaces_synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="MemFaces_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/MemFaces_synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="MemFaces_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="MemFaces.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/MemFaces_synth_1/MemFaces_synth_1.psg"/>
+  <File Type="RDS-RDS" Name="MemFaces.vds"/>
+  <File Type="RDS-UTIL" Name="MemFaces_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MemFaces_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="MemFaces_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="MemFaces.hwdef"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemFaces">
+    <File Path="$PSRCDIR/sources_1/ip/MemFaces/MemFaces.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="MemFaces"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemFaces">
+    <File Path="$PSRCDIR/sources_1/ip/MemFaces/MemFaces.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="MemFaces"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

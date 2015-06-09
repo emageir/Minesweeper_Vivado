@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2014.4 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="2" Path="C:/Users/Vfor/git/Minesweeper_Vivado/Minesweeper_Vivado.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="a454fb1640b1421bb5af27276e006ce4"/>
+    <Option Name="Part" Val="xc7a100tcsg324-3"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="SimulatorLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/TextAndRowToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/TextAndRowToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1421190938"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/ToPixelScore.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/ToPixelScore.vhd"/>
+          <Attr Name="ImportTime" Val="1421190984"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Reg7.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Reg7.vhd"/>
+          <Attr Name="ImportTime" Val="1420046882"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/ToPixelFaces.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/ToPixelFaces.vhd"/>
+          <Attr Name="ImportTime" Val="1420842161"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/RowToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/RowToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1420049540"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/ScoreAndRowToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/ScoreAndRowToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1421190914"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/FaceAndRowToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/FaceAndRowToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1420844222"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Reg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Reg.vhd"/>
+          <Attr Name="ImportTime" Val="1420839822"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/ToPixelWinner.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/ToPixelWinner.vhd"/>
+          <Attr Name="ImportTime" Val="1421190998"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/ToPixel.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/ToPixel.vhd"/>
+          <Attr Name="ImportTime" Val="1421191017"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Reg10.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Reg10.vhd"/>
+          <Attr Name="ImportTime" Val="1420841093"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/lfsr_random.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/lfsr_random.vhd"/>
+          <Attr Name="ImportTime" Val="1415974100"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/BlockRamFaces.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/BlockRamFaces.vhd"/>
+          <Attr Name="ImportTime" Val="1420850231"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/BlockRamTextures.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/BlockRamTextures.vhd"/>
+          <Attr Name="ImportTime" Val="1420046265"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Register5.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Register5.vhd"/>
+          <Attr Name="ImportTime" Val="1417518222"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/BlockRamWinner.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/BlockRamWinner.vhd"/>
+          <Attr Name="ImportTime" Val="1420049562"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/random.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/random.vhd"/>
+          <Attr Name="ImportTime" Val="1416653096"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/memoire.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/memoire.vhd"/>
+          <Attr Name="ImportTime" Val="1419585674"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Register7.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Register7.vhd"/>
+          <Attr Name="ImportTime" Val="1416655482"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/BlockRamScore.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/BlockRamScore.vhd"/>
+          <Attr Name="ImportTime" Val="1417818619"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Stack.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Stack.vhd"/>
+          <Attr Name="ImportTime" Val="1420413760"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Play_mode.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Play_mode.vhd"/>
+          <Attr Name="ImportTime" Val="1420683477"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Reset_Mode.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Reset_Mode.vhd"/>
+          <Attr Name="ImportTime" Val="1419967568"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Randomize.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Randomize.vhd"/>
+          <Attr Name="ImportTime" Val="1420642331"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/CoordToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/CoordToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1421190845"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/OpenRest_module.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/OpenRest_module.vhd"/>
+          <Attr Name="ImportTime" Val="1420660205"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Initialize.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Initialize.vhd"/>
+          <Attr Name="ImportTime" Val="1420642511"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Imgur.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Imgur.vhd"/>
+          <Attr Name="ImportTime" Val="1421116846"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/debounce.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/debounce.vhd"/>
+          <Attr Name="ImportTime" Val="1414063130"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/test_button.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/test_button.vhd"/>
+          <Attr Name="ImportTime" Val="1414063130"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Normalizer.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Normalizer.vhd"/>
+          <Attr Name="ImportTime" Val="1420654971"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/connect_Hdmi.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/connect_Hdmi.vhd"/>
+          <Attr Name="ImportTime" Val="1420845109"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Cursor.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Cursor.vhd"/>
+          <Attr Name="ImportTime" Val="1420662583"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/DigitsForScore.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/DigitsForScore.vhd"/>
+          <Attr Name="ImportTime" Val="1421191102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/BlockRamGrid.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/BlockRamGrid.vhd"/>
+          <Attr Name="ImportTime" Val="1418919462"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Control.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Control.vhd"/>
+          <Attr Name="ImportTime" Val="1420676325"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/top_level.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/top_level.vhd"/>
+          <Attr Name="ImportTime" Val="1420845162"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/dummy_game.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/dummy_game.vhd"/>
+          <Attr Name="ImportTime" Val="1420320511"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/image_generator.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/image_generator.vhd"/>
+          <Attr Name="ImportTime" Val="1420117978"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/MemScore_top.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/MemScore_top.vhd"/>
+          <Attr Name="ImportTime" Val="1417815428"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/Control_test.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/Control_test.vhd"/>
+          <Attr Name="ImportTime" Val="1420641104"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/HDMI_example/BlockRamIniScreen.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Dropbox/Πολυτεχνείο/11ο Εξάμηνο/Ενσωματωμένα Συστήματα/Project/Final/playground/HDMI_example/BlockRamIniScreen.vhd"/>
+          <Attr Name="ImportTime" Val="1420857485"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Top_Level"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Top_Level"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="MemTextures" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemTextures">
+      <File Path="$PSRCDIR/sources_1/ip/MemTextures/MemTextures.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="MemTextures"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Mem" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Mem">
+      <File Path="$PSRCDIR/sources_1/ip/Mem/Mem.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Mem"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="MemScore" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemScore">
+      <File Path="$PSRCDIR/sources_1/ip/MemScore/MemScore.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="MemScore"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="MemWinner" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemWinner">
+      <File Path="$PSRCDIR/sources_1/ip/MemWinner/MemWinner.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="MemWinner"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="WelcomeScreen" Type="BlockSrcs" RelSrcDir="$PSRCDIR/WelcomeScreen">
+      <File Path="$PSRCDIR/sources_1/ip/WelcomeScreen/WelcomeScreen.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="WelcomeScreen"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="MemFaces" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemFaces">
+      <File Path="$PSRCDIR/sources_1/ip/MemFaces/MemFaces.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="MemFaces"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Stack_64x10" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Stack_64x10">
+      <File Path="$PSRCDIR/sources_1/ip/Stack_64x10/Stack_64x10.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Stack_64x10"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="QuestaSim/ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-3" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="MemTextures_synth_1" Type="Ft3:Synth" SrcSet="MemTextures" Part="xc7a100tcsg324-3" ConstrsSet="MemTextures" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="Mem_synth_1" Type="Ft3:Synth" SrcSet="Mem" Part="xc7a100tcsg324-3" ConstrsSet="Mem" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="MemScore_synth_1" Type="Ft3:Synth" SrcSet="MemScore" Part="xc7a100tcsg324-3" ConstrsSet="MemScore" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/MemScore_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="MemWinner_synth_1" Type="Ft3:Synth" SrcSet="MemWinner" Part="xc7a100tcsg324-3" ConstrsSet="MemWinner" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/MemWinner_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="WelcomeScreen_synth_1" Type="Ft3:Synth" SrcSet="WelcomeScreen" Part="xc7a100tcsg324-3" ConstrsSet="WelcomeScreen" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/WelcomeScreen_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="MemFaces_synth_1" Type="Ft3:Synth" SrcSet="MemFaces" Part="xc7a100tcsg324-3" ConstrsSet="MemFaces" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/MemFaces_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="Stack_64x10_synth_1" Type="Ft3:Synth" SrcSet="Stack_64x10" Part="xc7a100tcsg324-3" ConstrsSet="Stack_64x10" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Stack_64x10_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="MemTextures_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="MemTextures" Description="Vivado Implementation Defaults" SynthRun="MemTextures_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="Mem_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="Mem" Description="Vivado Implementation Defaults" SynthRun="Mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="MemScore_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="MemScore" Description="Vivado Implementation Defaults" SynthRun="MemScore_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="MemWinner_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="MemWinner" Description="Vivado Implementation Defaults" SynthRun="MemWinner_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="WelcomeScreen_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="WelcomeScreen" Description="Vivado Implementation Defaults" SynthRun="WelcomeScreen_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="MemFaces_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="MemFaces" Description="Vivado Implementation Defaults" SynthRun="MemFaces_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="Stack_64x10_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="Stack_64x10" Description="Vivado Implementation Defaults" SynthRun="Stack_64x10_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+</Project>
