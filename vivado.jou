@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Jun 15 20:42:03 2015
+# Process ID: 10892
+# Log file: C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/vivado.log
+# Journal file: C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.xpr
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/Vfor/Desktop/Nexys4_Master.xdc
+import_files -fileset constrs_1 C:/Users/Vfor/Desktop/Nexys4_Master.xdc
